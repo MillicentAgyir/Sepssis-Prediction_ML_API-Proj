@@ -90,7 +90,7 @@ The project contains all necessary components, including training code, the depl
 - Email: [agyirnana@gmail.com](mailto:agyirnana@gmail.com)
 
 ## Deployment
-- **Deployed Application**: The app is available at: [https://sepssis-prediction-app.onrender.com](https://sepssis-prediction-app.onrender.com)
+- **Deployed Application**: The app is available at: [https://dashboard.render.com/web/srv-ct9cpapu0jms73cpdkdg](https://dashboard.render.com/web/srv-ct9cpapu0jms73cpdkdg)
 - **Swagger UI**: [https://sepssis-prediction-app.onrender.com/docs](https://sepssis-prediction-app.onrender.com/docs)
 - **DockerHub Image**: The Docker image is available at [DockerHub](https://hub.docker.com/r/millicentagyir/sepssis-prediction-app)
 
