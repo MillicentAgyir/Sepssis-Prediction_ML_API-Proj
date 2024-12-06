@@ -1,49 +1,63 @@
 
 # Machine Learning API using FastAPI
-Develop a Machine Learning API (Application Programming Interface) using FastAPI.
+## Overview
 
-[![python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-[![MIT licensed](https://img.shields.io/badge/license-mit-blue?style=for-the-badge&logo=appveyor)](./LICENSE)
-![Python](https://img.shields.io/badge/python-3.9-blue.svg)
-
-## Introduction
-
-This is the last project of the program, congratulations for all the work done until now.
-
-In this project, we aim to help you to discover how to create an API that might be requested to interact with a ML model. This is an interesting solution when you want to keep your model architecture secret or to make your model available to users already having an API. By creating an API, and deploying it, your model can so that receive request using the internet protocol as presented by the illustration below.
-
-![API illustration](https://lh3.googleusercontent.com/-qVJ4ZsbjsmH6CnYbojsAR4ImyHV8yxsFVinunH-pX7VCapGvufcXiPak6YVKIrj9ZdiCHwK5UFtQW8yuU5t83pz6fbqN1F2p74OWuT5dObCPnTBuCYr_P1mUg8arbP0WuEt7j_A)
-
-**Source** : *The benefits of Machine Learning APIs - UbiOps*
+This project is a machine learning API built to predict sepsis based on patient data. It uses a trained classification model deployed as a REST API using FastAPI. The prediction model helps healthcare professionals assess the risk of sepsis by entering key health metrics.
 
 
-## Description
 
-<!-- 
-[FastAPI](https://fastapi.tiangolo.com/) # 
--->
+## Features
 
-You will have a minimal API demo with [FastAPI](https://fastapi.tiangolo.com/), this will just serve you to make sure that everything works correctly. Then, you will have to make your own API, this allowing you to interact with a Machine Learning model, that is to say:
-- Pass data through a request;
-- Get the data in using the API;
-- Apply the necessary processing;
-- Submit the processed data to the ML model to make the predictions;
-- Process the predictions obtained and return them as the API's response ot the input request.
+i. Predict whether a patient is at risk of sepsis based on input data.
 
-## Instructions
+ii. API endpoints for submitting patient data and getting predictions.
 
-Your task is to build an API integrating a ML model using FastAPI.
-Clone this repository to use it as a template, do not forget to change the readme at the end of the project.
-Your work should follow these next steps.
+iii.Built with FastAPI for high performance and easy usage.
 
-1.  Build a ML model to predict the [Sepsis](https://www.kaggle.com/datasets/chaunguynnghunh/sepsis?select=README.md)(**Data set here**), during the 2 first weeks. 
+iv. Swagger UI for easy interaction and testing of endpoints.
 
-2.  Build an API using Fast API, during the remaining weeks, to embed the ML model built.
+v. Dockerized to make deployment easy and consistent.
 
 
-Upon completion of your project, you are required to write a blog post
-on your thought process on medium, LinkedIn, personal blog, or any other
-suitable blogging site.
+
+## Setup Instructions
+
+### Prerequisites
+
+- Python 3.8 or higher
+
+- Docker (optional, for containerized deployment)
+
+- Git
+
+
+### Local Setup
+
+1. Clone the Repository
+
+  git clone https://github.com/MillicentAgyir/Sepssis-Prediction_ML_API-Proj.git
+  cd Sepssis-Prediction_ML_API-Proj
+
+2. Install Dependencies : Make sure you are in the project directory and then run:
+
+   pip install -r requirements.txt
+
+3. Run the API : To start the FastAPI server locally, run the following command:
+
+   uvicorn api:app --reload
+
+The API will be accessible at: http://127.0.0.1:8000
+
+Swagger UI (for API testing) is available at: http://127.0.0.1:8000/docs
+
+
+## Docker Setup
+
+1. Build the Docker Image
+
+
+
+
 
 ## Rubrics
 
