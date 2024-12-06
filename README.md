@@ -91,7 +91,7 @@ The project contains all necessary components, including training code, the depl
 
 ## Deployment
 - **Deployed Application**: The app is available at: [https://dashboard.render.com/web/srv-ct9cpapu0jms73cpdkdg](https://dashboard.render.com/web/srv-ct9cpapu0jms73cpdkdg)
-- **Swagger UI**: [https://sepssis-prediction-app.onrender.com/docs](https://sepssis-prediction-app.onrender.com/docs)
+- **Swagger UI**: [https://sepssis-prediction-ml-api-proj.onrender.com/docs](https://sepssis-prediction-ml-api-proj.onrender.com/docs)
 - **DockerHub Image**: The Docker image is available at [DockerHub](https://hub.docker.com/r/millicentagyir/sepssis-prediction-app)
 
 ## How to Use
