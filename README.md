@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Machine Learning API using FastAPI
 Develop a Machine Learning API (Application Programming Interface) using FastAPI.
 
@@ -142,3 +143,6 @@ Oh, one more thing, please do not forget to put a description when you make your
 
 - [Emmanuel KOUPOH](https://www.linkedin.com/in/esa%C3%AFe-alain-emmanuel-dina-koupoh-7b974a17a/)
 [![My Twitter Link](https://img.shields.io/twitter/follow/emmanuelkoupoh?style=social)](https://twitter.com/emmanuelkoupoh)
+=======
+# Sepssis-Prediction_ML_API-Proj
+>>>>>>> f715ae4b1b971e5707938a4f7d9d983806c1557d
